@@ -19,11 +19,14 @@ nav {
     background-color:rgb(230, 249, 253);
     width: 100%;
     text-align: center;
+    display: flex;
+
 }
 a {
     text-decoration: none;
     padding: 20px;
     font-weight: bold;
+    color:rgb(50, 48, 48)
 }
 
 header {
@@ -84,6 +87,7 @@ main {
 
 
 footer {
+    width: 100%;
     background-color: rgb(127, 128, 129);
     display: flex;
     flex-flow: row wrap;
