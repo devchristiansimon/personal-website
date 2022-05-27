@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color:rgb(230, 249, 253);
+}
+
+header {
+    background-color: ghostwhite;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header q {
+    padding: 20px;
+}   
+
+header img {
+    max-width: 40%;
+    border-radius: 50%;
+}
+
+main {
+    background-color: rgb(230, 249, 253);
+}
+
+footer {
+    background-color: rgb(127, 128, 129);
+}
