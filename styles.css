@@ -17,6 +17,13 @@ h2 {
 nav {
     height: 50px;
     background-color:rgb(230, 249, 253);
+    width: 100%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
 }
 
 header {
@@ -44,7 +51,7 @@ main {
     flex-direction: column;
 }
 
-#erfolge {
+.defaultDesign {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -59,6 +66,7 @@ main {
     box-shadow: 0 0 30px grey;
 }
 
+
 #kontakt {
     background-color: ghostwhite;
     display: flex;
@@ -69,10 +77,28 @@ main {
     gap: 20px;
 }
 
-
+#kontakt > .designArtikel {
+    background-color: rgb(230, 249, 253);
+}
 
 
 
 footer {
     background-color: rgb(127, 128, 129);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(50, 48, 48);
+    color:rgb(230, 249, 253)
+}
+
+footer p {
+    max-width: 400px;
+    padding: 20px;
+    gap: 20px;
+    font-size: 0.8rem;
+}
+
+footer p a {
+    color: ghostwhite;
 }
